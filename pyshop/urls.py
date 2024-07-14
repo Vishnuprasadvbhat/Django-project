@@ -17,6 +17,8 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
+# adding new urls related to Pyshop
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('products/', include('products.urls')),
